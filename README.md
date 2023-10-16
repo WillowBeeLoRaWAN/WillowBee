@@ -4,8 +4,6 @@
 <img src="https://willowsoft.co/wp-content/uploads/willowbee_picture-1.jpg" width=20% height=20%>
 
 
-
-
 <b>Install WillowBee Development Environment</b>
 
 1. Open Windows Terminal
