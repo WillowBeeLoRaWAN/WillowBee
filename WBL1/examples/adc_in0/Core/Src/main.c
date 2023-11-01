@@ -117,7 +117,7 @@ int main(void)
 		HAL_ADC_Stop (&hadc);	
 		
 		/* Copy ADC converted value into the data buffer */
-		sprintf(data,"ADC IN0 value=%d mV\r\n", (uint16_t) ((ADCxConvertedValues / 4095.0) * 3300) );
+		sprintf(data, " ADC IN0 channel value=%d mV\r\n ", (uint16_t) ((ADCxConvertedValues / 4095.0) * 3300) );
 
 		HAL_UART_Transmit(&huart2, (uint8_t*)data, sizeof(data),0xFFFF);		
 	  HAL_Delay(100);

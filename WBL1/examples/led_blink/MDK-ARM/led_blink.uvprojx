@@ -131,14 +131,14 @@
           <Flash1>
             <UseTargetDll>0</UseTargetDll>
             <UseExternalTool>1</UseExternalTool>
-            <RunIndependent>0</RunIndependent>
+            <RunIndependent>1</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
             <DriverSelection>4101</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2V8M.DLL</Flash2>
-          <Flash3>"C:\bipom\devtools\WillowBee\WBL1\loader\uCLoader\ucloader.exe /p=com9 /f=C:\bipom\devtools\WillowBee\WBL1\examples\led_blink\MDK-ARM\led_blink\led_blink.hex /dll=stm32isp.dll" ()</Flash3>
+          <Flash3>"C:\bipom\WillowBeeLoader\WillowBeeLoader.exe" (-p 9 -f "C:\bipom\devtools\WillowBee\WBL1\examples\led_blink\MDK-ARM\led_blink\led_blink.hex")</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>

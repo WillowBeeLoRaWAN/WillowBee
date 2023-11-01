@@ -98,7 +98,6 @@ int main(void)
 			HAL_Delay(500);
 		  HAL_GPIO_WritePin(GPIOA, LED_RED_Pin|LED_GREEN_Pin, GPIO_PIN_SET);
 			HAL_Delay(500);			
-		
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
