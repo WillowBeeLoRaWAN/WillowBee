@@ -1,0 +1,3 @@
+This example reads the ADC value on WillowBee AN0 pin which is PB13 pin on the STM32WL55XX CPU.
+
+ 
