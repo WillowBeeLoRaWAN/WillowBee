@@ -1,0 +1,1 @@
+del /S *.lst *.tmp *.map *.out *.d *.o *.dep *.htm *.axf *.lnp
